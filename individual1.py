@@ -7,7 +7,7 @@ if __name__ == '__main__':
     arr = tuple(map(int, input().split()))
     print("кортеж:", arr)
 
-    for i in range(len(arr) - 2):
+    for i, x in enumerate(arr):
         e1 = arr[i]
         e2 = arr[i + 1]
         e3 = arr[i + 2]
